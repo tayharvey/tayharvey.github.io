@@ -1,0 +1,159 @@
+body {
+  font-family: sans-serif;
+  padding-top: 50px;
+}
+
+
+header {
+  padding-left: 20px;
+
+}
+
+footer {
+  position: relative;
+  padding: 50px;
+}
+
+nav {
+  position: absolute;
+  left:0;
+  width: 250px;
+  display: block;
+  padding-left: 20px;
+}
+
+nav > div {
+  margin-right: 30px;
+}
+
+nav h3 {
+  color: #888888;
+}
+
+nav a, nav a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav li {
+  margin-bottom: 5px;
+}
+
+.main-content {
+  position: relative;
+  width: 100%;
+}
+
+
+article {
+  display: block;
+  position: absolute;
+  right:0;
+  left: 250px;
+  border-left: 1px solid #bbbbbb;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.highlight {
+  padding: 10px;
+  background-color: #dddddd;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.highlight-warning {
+  background-color: #FFEB9A;
+}
+
+button {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 5px;
+  border: 3px solid #5C78AC;
+  border-width: 1px 1px 1px 1px;
+  padding: 5px 15px 5px 15px;
+  color: #5C78AC;
+  font-size: 14px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  display: block;
+  width: 200px;
+
+  margin-bottom: 10px;
+}
+
+article > div, nav > div {
+  border-bottom: 1px solid #bbbbbb;
+}
+
+article > div:last-of-type, nav > div:last-of-type {
+  border: none;
+}
+
+figure {
+  margin-left: 0;
+  font-style: italic;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+table, td, th {
+  border-collapse: collapse;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
+
+th:nth-child(1) {
+  width: 55%;
+}
+
+tr > td:nth-child(1) {
+  font-weight: bold;
+}
+
+tfoot td {
+  line-height: 0;
+  padding: 5px;
+}
+
+table thead th, table tfoot td{
+  background-color: #5890FF;
+}
+
+table thead th {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #F2F2F2;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #CCDCFE;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+figure img {
+  width: 90%;
+}
